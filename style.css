@@ -1,0 +1,375 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: circular;
+    src: url(OnlineWebFonts_COM_9573bb03fdbc986f58e3d670b8d2f2be/CircularSpotifyTxT-Black/CircularSpotifyTxT-Black.otf);
+}
+body{
+    padding: 0;
+    margin: 0%;
+    text-align: center;
+    background-color: rgb(41, 65, 171);
+}
+#navbar{
+    display: flex;
+    position: relative;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-top: 0;
+    top: -60px;
+    width: 100%;
+}
+.logo {
+    z-index: 99;
+    position: relative;
+	height: 39px;
+    margin-top: 20px;
+    margin-left: 113px;
+    display: flex;
+    background-color: black;
+
+}
+#navbar .navbar-container{
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+#navbar .navbar-container ul{
+    display: flex;
+	list-style: none;
+	font-weight: bold;
+    margin-left: 67%;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#navbar .navbar-container ul li {
+	padding: 0 20px;
+	transition: all 300ms ease;
+}
+.showcase-container h2{
+    color: rgb(30, 215, 96);
+    position: relative;
+    margin-top: 130px;
+    font-size: 150px;
+    font-family: 'circular';
+    letter-spacing: -5px;
+}
+.navbar-item1:hover{
+    color: rgb(30, 215, 96);
+}
+.navbar-item2:hover{
+    color: rgb(30, 215, 96); 
+}
+.navbar-item3:hover{
+    color: rgb(30, 215, 96);
+}
+.navbar-item4{
+    color: rgb(218, 216, 216);
+}
+.navbar-item4:hover{
+    color: rgb(30, 215, 96);
+}
+.navbar-item5{
+    color: rgb(218, 216, 216);
+}
+.navbar-item5:hover{
+    color: rgb(30, 215, 96);
+}
+.showcase-container p{
+    color: rgb(30, 215, 96);
+    position: relative;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+}
+.btn-primary{
+    height: 48px;
+    width: 215px;
+    border-radius: 30px;
+    background-color: rgb(30, 215, 96);
+    border: none;
+    color: rgb(41, 65, 171);
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 13em;
+}
+.rodapé{
+    position: relative;
+    height: 530px;
+    background-color: black;
+}
+.logo1{
+    z-index: 99;
+    position: absolute;
+	height: 39px;
+    margin-top: 80px;
+    margin-left: 113px;
+    display: flex;
+    background-color: black;
+}
+.footer-container{
+    color: white;
+	list-style: none;
+	font-weight: bold;
+    float: left;
+    margin-left: 310px;
+    margin-top: 100px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+.footer-item1{
+    margin-bottom: 30px;
+    color: rgb(150, 150, 150);
+    letter-spacing: 2px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer-item2{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item2:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item3{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item3:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item4{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item4:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-container2{
+    color: white;
+	list-style: none;
+	font-weight: bold;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+.footer-item5{
+    margin-bottom: 30px;
+    color: rgb(150, 150, 150);
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer-item6{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item6:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item7{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item7:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item8{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item8:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item9{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item9:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item10{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item10:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-container3{
+    color: white;
+	list-style: none;
+	font-weight: bold;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+.footer-item11{
+    margin-bottom: 30px;
+    color: rgb(150, 150, 150);
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer-item12{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item12:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item13{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item13:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item14{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.footer-item14:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.fa-brands{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+}
+.fa-brands i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+.fa-instagram:hover{
+    color: rgb(30, 215, 96);
+}
+.fa-twitter:hover{
+    color: rgb(30, 215, 96);
+}
+.fa-facebook-f:hover{
+    color: rgb(30, 215, 96);
+}
+.footer-container4{
+    color: rgb(150, 150, 150);
+    list-style: none;
+    float: left;
+    margin-left: -770px;
+    margin-top: 460px;
+    white-space: nowrap;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+.footer-item15{
+    margin-right: 25px;
+    font-size: 11px;
+}
+.footer-item15:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item16{
+    margin-right: 25px;
+    font-size: 11px;
+}
+.footer-item16:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item17{
+    margin-right: 25px;
+    font-size: 11px;
+}
+.footer-item17:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item18{
+    margin-right: 25px;
+    font-size: 11px;
+}
+.footer-item18:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-item19{
+    margin-right: 25px;
+    font-size: 11px;
+}
+.footer-item19:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.fa-brands1{
+    font-size: 11px;
+}
+.fa-earth-africa{
+    color: white;
+    margin-top: 300px;
+    margin-left: 163px;
+    color: gray;
+}
+#h3{
+    display: flex;
+    position: relative;
+    margin-top: -14px;
+    margin-left: 1220px;
+    color: gray;
+    font-size: 10px;
+    font-family: 'poppins' sans-serif;
+}
+h4{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    margin-left: -93px;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Roboto' sans-serif;
+}
